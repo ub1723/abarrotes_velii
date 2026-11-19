@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(55, 185, 105);
+            text-align: center;
+        }
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .galeria img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 3px solid #64b419;
+            box-shadow: 0 4px 10px #2f941b;
+            transition: all 0.3s ease;
+        }
+        .galeria img:hover {
+            transform: scale(1.1);
+            border-color: chartreuse;
+            box-shadow: 0 10px 25px #27814f;
+            cursor: pointer;
+        }
+    </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>galeria</h1>
+        <p>aquí estan las fotos de nuestro producto</p>
+        <div class="galeria">
+            <img src="img/producto.jpg">
+            <img src="img/postres.jpg">
+            <img src="img/refrescos.jpg">
+        </div>
+    
+</body>
+</html>
